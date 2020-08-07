@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* -----------------------
+共通
+------------------------- */
+body{
+    font-family:'YuGothic',Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.5;
+    font-size:16px;
+    color:#333333;
+    margin:0 auto;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #e47b12;
+    font-weight:bold;
+    text-align:center;
+    margin:80px 0;
+}
+
+/* -----------------------
+header
+------------------------- */
+header {
+    background:#E47B12;
+    padding: 20px 0;
+    text-align:center;
+}
+
+.site-title {
+    color:#fff;
+    font-size:40px;
+    font-weight:bold;
+    
+}
+
+/* -----------------------
+kv
+------------------------- */
+.main-visual{
+    background-image:url(../img/kv-img.jpg);
+    padding:155px 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.kv-copy {
+    font-size:30px;
+    font-weight:bold;
+    color:#ffffff;
+    text-align:center;
+}
+
+/* -----------------------
+はじめに
+------------------------- */
+.content1{
+    margin-bottom:80px;
+}
+.content1-copy {
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    padding: 0 20px;
+
+}
+
+/* -----------------------
+学習の心構え
+------------------------- */
+.content2 {
+    background:#F0F0F0;
+    padding:80px 0;
+}
+.content2-list{
+    margin:auto;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.content2-list-item {
+    margin-bottom:15px;
+}
+
+.content2-list-item:last-of-type {
+    margin-bottom:0;
+}
+
+/* -----------------------
+学習すること
+------------------------- */
+.content3{
+    margin-bottom:80px;
+}
+
+.study-list{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:80px;
+    padding: 0 20px;
+}
+
+.link-btn {
+    width:210px;
+    display:block;
+    background:#E47B12;
+    height:48px;
+    padding:12px 0;
+    color:#fff;
+    font-weight:bold;
+    margin-top:50px;
+    margin-bottom:80px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.link-btn:hover {
+    opacity:0.7;
+
+}
+
+/* -----------------------
+footer
+------------------------- */
+footer {
+    background:#222222;
+    height:48px;
+}
+
+footer p{
+    text-align:center;
+    padding:15px 0;
+    color:#fff;
+    font-size:12px;
+}
+
+/* -----------------------
+レスポンシブ
+------------------------- */
+@media screen and (max-width:768px){
+/* -----------------------
+header-sp
+------------------------- */
+ .site-title{
+     font-size:26px;
+ }
+
+/* -----------------------
+kv-sp
+------------------------- */
+.kv-copy{
+    font-size:26px;
+}
+
+/* -----------------------
+学習すること-sp
+------------------------- */
+.study-list{
+
+    display:block;
+}
+
+.study-list-item{
+    margin:0 auto 20px;
+}
+.study-list-item:last-of-type{
+    margin-bottom:0 ;
+}
+
+}
